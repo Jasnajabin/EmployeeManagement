@@ -1,0 +1,1681 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "array",
+  "items": [
+    {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "integer"
+        },
+        "ename": {
+          "type": "string"
+        },
+        "dob": {
+          "type": "string"
+        },
+        "salary": {
+          "type": "integer"
+        },
+        "address": {
+          "type": "string"
+        },
+        "role": {
+          "type": "string"
+        },
+        "jDate": {
+          "type": "string"
+        },
+        "yearlyBP": {
+          "type": "string"
+        },
+        "rManager": {
+          "type": "string"
+        },
+        "department": {
+          "type": "object",
+          "properties": {
+            "id": {
+              "type": "integer"
+            },
+            "dname": {
+              "type": "string"
+            },
+            "creationDate": {
+              "type": "string"
+            },
+            "departmentHead": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "id",
+            "dname",
+            "creationDate",
+            "departmentHead"
+          ]
+        }
+      },
+      "required": [
+        "id",
+        "ename",
+        "dob",
+        "salary",
+        "address",
+        "role",
+        "jDate",
+        "yearlyBP",
+        "rManager",
+        "department"
+      ]
+    },
+    {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "integer"
+        },
+        "ename": {
+          "type": "string"
+        },
+        "dob": {
+          "type": "string"
+        },
+        "salary": {
+          "type": "integer"
+        },
+        "address": {
+          "type": "string"
+        },
+        "role": {
+          "type": "string"
+        },
+        "jDate": {
+          "type": "string"
+        },
+        "yearlyBP": {
+          "type": "string"
+        },
+        "rManager": {
+          "type": "string"
+        },
+        "department": {
+          "type": "object",
+          "properties": {
+            "id": {
+              "type": "integer"
+            },
+            "dname": {
+              "type": "string"
+            },
+            "creationDate": {
+              "type": "string"
+            },
+            "departmentHead": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "id",
+            "dname",
+            "creationDate",
+            "departmentHead"
+          ]
+        }
+      },
+      "required": [
+        "id",
+        "ename",
+        "dob",
+        "salary",
+        "address",
+        "role",
+        "jDate",
+        "yearlyBP",
+        "rManager",
+        "department"
+      ]
+    },
+    {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "integer"
+        },
+        "ename": {
+          "type": "string"
+        },
+        "dob": {
+          "type": "string"
+        },
+        "salary": {
+          "type": "integer"
+        },
+        "address": {
+          "type": "string"
+        },
+        "role": {
+          "type": "string"
+        },
+        "jDate": {
+          "type": "string"
+        },
+        "yearlyBP": {
+          "type": "string"
+        },
+        "rManager": {
+          "type": "string"
+        },
+        "department": {
+          "type": "object",
+          "properties": {
+            "id": {
+              "type": "integer"
+            },
+            "dname": {
+              "type": "string"
+            },
+            "creationDate": {
+              "type": "string"
+            },
+            "departmentHead": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "id",
+            "dname",
+            "creationDate",
+            "departmentHead"
+          ]
+        }
+      },
+      "required": [
+        "id",
+        "ename",
+        "dob",
+        "salary",
+        "address",
+        "role",
+        "jDate",
+        "yearlyBP",
+        "rManager",
+        "department"
+      ]
+    },
+    {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "integer"
+        },
+        "ename": {
+          "type": "string"
+        },
+        "dob": {
+          "type": "string"
+        },
+        "salary": {
+          "type": "integer"
+        },
+        "address": {
+          "type": "string"
+        },
+        "role": {
+          "type": "string"
+        },
+        "jDate": {
+          "type": "string"
+        },
+        "yearlyBP": {
+          "type": "string"
+        },
+        "rManager": {
+          "type": "string"
+        },
+        "department": {
+          "type": "object",
+          "properties": {
+            "id": {
+              "type": "integer"
+            },
+            "dname": {
+              "type": "string"
+            },
+            "creationDate": {
+              "type": "string"
+            },
+            "departmentHead": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "id",
+            "dname",
+            "creationDate",
+            "departmentHead"
+          ]
+        }
+      },
+      "required": [
+        "id",
+        "ename",
+        "dob",
+        "salary",
+        "address",
+        "role",
+        "jDate",
+        "yearlyBP",
+        "rManager",
+        "department"
+      ]
+    },
+    {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "integer"
+        },
+        "ename": {
+          "type": "string"
+        },
+        "dob": {
+          "type": "string"
+        },
+        "salary": {
+          "type": "integer"
+        },
+        "address": {
+          "type": "string"
+        },
+        "role": {
+          "type": "string"
+        },
+        "jDate": {
+          "type": "string"
+        },
+        "yearlyBP": {
+          "type": "string"
+        },
+        "rManager": {
+          "type": "string"
+        },
+        "department": {
+          "type": "object",
+          "properties": {
+            "id": {
+              "type": "integer"
+            },
+            "dname": {
+              "type": "string"
+            },
+            "creationDate": {
+              "type": "string"
+            },
+            "departmentHead": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "id",
+            "dname",
+            "creationDate",
+            "departmentHead"
+          ]
+        }
+      },
+      "required": [
+        "id",
+        "ename",
+        "dob",
+        "salary",
+        "address",
+        "role",
+        "jDate",
+        "yearlyBP",
+        "rManager",
+        "department"
+      ]
+    },
+    {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "integer"
+        },
+        "ename": {
+          "type": "string"
+        },
+        "dob": {
+          "type": "string"
+        },
+        "salary": {
+          "type": "integer"
+        },
+        "address": {
+          "type": "string"
+        },
+        "role": {
+          "type": "string"
+        },
+        "jDate": {
+          "type": "string"
+        },
+        "yearlyBP": {
+          "type": "string"
+        },
+        "rManager": {
+          "type": "string"
+        },
+        "department": {
+          "type": "object",
+          "properties": {
+            "id": {
+              "type": "integer"
+            },
+            "dname": {
+              "type": "string"
+            },
+            "creationDate": {
+              "type": "string"
+            },
+            "departmentHead": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "id",
+            "dname",
+            "creationDate",
+            "departmentHead"
+          ]
+        }
+      },
+      "required": [
+        "id",
+        "ename",
+        "dob",
+        "salary",
+        "address",
+        "role",
+        "jDate",
+        "yearlyBP",
+        "rManager",
+        "department"
+      ]
+    },
+    {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "integer"
+        },
+        "ename": {
+          "type": "string"
+        },
+        "dob": {
+          "type": "string"
+        },
+        "salary": {
+          "type": "integer"
+        },
+        "address": {
+          "type": "string"
+        },
+        "role": {
+          "type": "string"
+        },
+        "jDate": {
+          "type": "string"
+        },
+        "yearlyBP": {
+          "type": "string"
+        },
+        "rManager": {
+          "type": "string"
+        },
+        "department": {
+          "type": "object",
+          "properties": {
+            "id": {
+              "type": "integer"
+            },
+            "dname": {
+              "type": "string"
+            },
+            "creationDate": {
+              "type": "string"
+            },
+            "departmentHead": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "id",
+            "dname",
+            "creationDate",
+            "departmentHead"
+          ]
+        }
+      },
+      "required": [
+        "id",
+        "ename",
+        "dob",
+        "salary",
+        "address",
+        "role",
+        "jDate",
+        "yearlyBP",
+        "rManager",
+        "department"
+      ]
+    },
+    {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "integer"
+        },
+        "ename": {
+          "type": "string"
+        },
+        "dob": {
+          "type": "string"
+        },
+        "salary": {
+          "type": "integer"
+        },
+        "address": {
+          "type": "string"
+        },
+        "role": {
+          "type": "string"
+        },
+        "jDate": {
+          "type": "string"
+        },
+        "yearlyBP": {
+          "type": "string"
+        },
+        "rManager": {
+          "type": "string"
+        },
+        "department": {
+          "type": "object",
+          "properties": {
+            "id": {
+              "type": "integer"
+            },
+            "dname": {
+              "type": "string"
+            },
+            "creationDate": {
+              "type": "string"
+            },
+            "departmentHead": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "id",
+            "dname",
+            "creationDate",
+            "departmentHead"
+          ]
+        }
+      },
+      "required": [
+        "id",
+        "ename",
+        "dob",
+        "salary",
+        "address",
+        "role",
+        "jDate",
+        "yearlyBP",
+        "rManager",
+        "department"
+      ]
+    },
+    {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "integer"
+        },
+        "ename": {
+          "type": "string"
+        },
+        "dob": {
+          "type": "string"
+        },
+        "salary": {
+          "type": "integer"
+        },
+        "address": {
+          "type": "string"
+        },
+        "role": {
+          "type": "string"
+        },
+        "jDate": {
+          "type": "string"
+        },
+        "yearlyBP": {
+          "type": "string"
+        },
+        "rManager": {
+          "type": "string"
+        },
+        "department": {
+          "type": "object",
+          "properties": {
+            "id": {
+              "type": "integer"
+            },
+            "dname": {
+              "type": "string"
+            },
+            "creationDate": {
+              "type": "string"
+            },
+            "departmentHead": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "id",
+            "dname",
+            "creationDate",
+            "departmentHead"
+          ]
+        }
+      },
+      "required": [
+        "id",
+        "ename",
+        "dob",
+        "salary",
+        "address",
+        "role",
+        "jDate",
+        "yearlyBP",
+        "rManager",
+        "department"
+      ]
+    },
+    {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "integer"
+        },
+        "ename": {
+          "type": "string"
+        },
+        "dob": {
+          "type": "string"
+        },
+        "salary": {
+          "type": "integer"
+        },
+        "address": {
+          "type": "string"
+        },
+        "role": {
+          "type": "string"
+        },
+        "jDate": {
+          "type": "string"
+        },
+        "yearlyBP": {
+          "type": "string"
+        },
+        "rManager": {
+          "type": "string"
+        },
+        "department": {
+          "type": "object",
+          "properties": {
+            "id": {
+              "type": "integer"
+            },
+            "dname": {
+              "type": "string"
+            },
+            "creationDate": {
+              "type": "string"
+            },
+            "departmentHead": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "id",
+            "dname",
+            "creationDate",
+            "departmentHead"
+          ]
+        }
+      },
+      "required": [
+        "id",
+        "ename",
+        "dob",
+        "salary",
+        "address",
+        "role",
+        "jDate",
+        "yearlyBP",
+        "rManager",
+        "department"
+      ]
+    },
+    {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "integer"
+        },
+        "ename": {
+          "type": "string"
+        },
+        "dob": {
+          "type": "string"
+        },
+        "salary": {
+          "type": "integer"
+        },
+        "address": {
+          "type": "string"
+        },
+        "role": {
+          "type": "string"
+        },
+        "jDate": {
+          "type": "string"
+        },
+        "yearlyBP": {
+          "type": "string"
+        },
+        "rManager": {
+          "type": "string"
+        },
+        "department": {
+          "type": "object",
+          "properties": {
+            "id": {
+              "type": "integer"
+            },
+            "dname": {
+              "type": "string"
+            },
+            "creationDate": {
+              "type": "string"
+            },
+            "departmentHead": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "id",
+            "dname",
+            "creationDate",
+            "departmentHead"
+          ]
+        }
+      },
+      "required": [
+        "id",
+        "ename",
+        "dob",
+        "salary",
+        "address",
+        "role",
+        "jDate",
+        "yearlyBP",
+        "rManager",
+        "department"
+      ]
+    },
+    {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "integer"
+        },
+        "ename": {
+          "type": "string"
+        },
+        "dob": {
+          "type": "string"
+        },
+        "salary": {
+          "type": "integer"
+        },
+        "address": {
+          "type": "string"
+        },
+        "role": {
+          "type": "string"
+        },
+        "jDate": {
+          "type": "string"
+        },
+        "yearlyBP": {
+          "type": "string"
+        },
+        "rManager": {
+          "type": "string"
+        },
+        "department": {
+          "type": "object",
+          "properties": {
+            "id": {
+              "type": "integer"
+            },
+            "dname": {
+              "type": "string"
+            },
+            "creationDate": {
+              "type": "string"
+            },
+            "departmentHead": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "id",
+            "dname",
+            "creationDate",
+            "departmentHead"
+          ]
+        }
+      },
+      "required": [
+        "id",
+        "ename",
+        "dob",
+        "salary",
+        "address",
+        "role",
+        "jDate",
+        "yearlyBP",
+        "rManager",
+        "department"
+      ]
+    },
+    {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "integer"
+        },
+        "ename": {
+          "type": "string"
+        },
+        "dob": {
+          "type": "string"
+        },
+        "salary": {
+          "type": "integer"
+        },
+        "address": {
+          "type": "string"
+        },
+        "role": {
+          "type": "string"
+        },
+        "jDate": {
+          "type": "string"
+        },
+        "yearlyBP": {
+          "type": "string"
+        },
+        "rManager": {
+          "type": "string"
+        },
+        "department": {
+          "type": "object",
+          "properties": {
+            "id": {
+              "type": "integer"
+            },
+            "dname": {
+              "type": "string"
+            },
+            "creationDate": {
+              "type": "string"
+            },
+            "departmentHead": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "id",
+            "dname",
+            "creationDate",
+            "departmentHead"
+          ]
+        }
+      },
+      "required": [
+        "id",
+        "ename",
+        "dob",
+        "salary",
+        "address",
+        "role",
+        "jDate",
+        "yearlyBP",
+        "rManager",
+        "department"
+      ]
+    },
+    {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "integer"
+        },
+        "ename": {
+          "type": "string"
+        },
+        "dob": {
+          "type": "string"
+        },
+        "salary": {
+          "type": "integer"
+        },
+        "address": {
+          "type": "string"
+        },
+        "role": {
+          "type": "string"
+        },
+        "jDate": {
+          "type": "string"
+        },
+        "yearlyBP": {
+          "type": "string"
+        },
+        "rManager": {
+          "type": "string"
+        },
+        "department": {
+          "type": "object",
+          "properties": {
+            "id": {
+              "type": "integer"
+            },
+            "dname": {
+              "type": "string"
+            },
+            "creationDate": {
+              "type": "string"
+            },
+            "departmentHead": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "id",
+            "dname",
+            "creationDate",
+            "departmentHead"
+          ]
+        }
+      },
+      "required": [
+        "id",
+        "ename",
+        "dob",
+        "salary",
+        "address",
+        "role",
+        "jDate",
+        "yearlyBP",
+        "rManager",
+        "department"
+      ]
+    },
+    {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "integer"
+        },
+        "ename": {
+          "type": "string"
+        },
+        "dob": {
+          "type": "string"
+        },
+        "salary": {
+          "type": "integer"
+        },
+        "address": {
+          "type": "string"
+        },
+        "role": {
+          "type": "string"
+        },
+        "jDate": {
+          "type": "string"
+        },
+        "yearlyBP": {
+          "type": "string"
+        },
+        "rManager": {
+          "type": "string"
+        },
+        "department": {
+          "type": "object",
+          "properties": {
+            "id": {
+              "type": "integer"
+            },
+            "dname": {
+              "type": "string"
+            },
+            "creationDate": {
+              "type": "string"
+            },
+            "departmentHead": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "id",
+            "dname",
+            "creationDate",
+            "departmentHead"
+          ]
+        }
+      },
+      "required": [
+        "id",
+        "ename",
+        "dob",
+        "salary",
+        "address",
+        "role",
+        "jDate",
+        "yearlyBP",
+        "rManager",
+        "department"
+      ]
+    },
+    {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "integer"
+        },
+        "ename": {
+          "type": "string"
+        },
+        "dob": {
+          "type": "string"
+        },
+        "salary": {
+          "type": "integer"
+        },
+        "address": {
+          "type": "string"
+        },
+        "role": {
+          "type": "string"
+        },
+        "jDate": {
+          "type": "string"
+        },
+        "yearlyBP": {
+          "type": "string"
+        },
+        "rManager": {
+          "type": "string"
+        },
+        "department": {
+          "type": "object",
+          "properties": {
+            "id": {
+              "type": "integer"
+            },
+            "dname": {
+              "type": "string"
+            },
+            "creationDate": {
+              "type": "string"
+            },
+            "departmentHead": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "id",
+            "dname",
+            "creationDate",
+            "departmentHead"
+          ]
+        }
+      },
+      "required": [
+        "id",
+        "ename",
+        "dob",
+        "salary",
+        "address",
+        "role",
+        "jDate",
+        "yearlyBP",
+        "rManager",
+        "department"
+      ]
+    },
+    {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "integer"
+        },
+        "ename": {
+          "type": "string"
+        },
+        "dob": {
+          "type": "string"
+        },
+        "salary": {
+          "type": "integer"
+        },
+        "address": {
+          "type": "string"
+        },
+        "role": {
+          "type": "string"
+        },
+        "jDate": {
+          "type": "string"
+        },
+        "yearlyBP": {
+          "type": "string"
+        },
+        "rManager": {
+          "type": "string"
+        },
+        "department": {
+          "type": "object",
+          "properties": {
+            "id": {
+              "type": "integer"
+            },
+            "dname": {
+              "type": "string"
+            },
+            "creationDate": {
+              "type": "string"
+            },
+            "departmentHead": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "id",
+            "dname",
+            "creationDate",
+            "departmentHead"
+          ]
+        }
+      },
+      "required": [
+        "id",
+        "ename",
+        "dob",
+        "salary",
+        "address",
+        "role",
+        "jDate",
+        "yearlyBP",
+        "rManager",
+        "department"
+      ]
+    },
+    {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "integer"
+        },
+        "ename": {
+          "type": "string"
+        },
+        "dob": {
+          "type": "string"
+        },
+        "salary": {
+          "type": "integer"
+        },
+        "address": {
+          "type": "string"
+        },
+        "role": {
+          "type": "string"
+        },
+        "jDate": {
+          "type": "string"
+        },
+        "yearlyBP": {
+          "type": "string"
+        },
+        "rManager": {
+          "type": "string"
+        },
+        "department": {
+          "type": "object",
+          "properties": {
+            "id": {
+              "type": "integer"
+            },
+            "dname": {
+              "type": "string"
+            },
+            "creationDate": {
+              "type": "string"
+            },
+            "departmentHead": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "id",
+            "dname",
+            "creationDate",
+            "departmentHead"
+          ]
+        }
+      },
+      "required": [
+        "id",
+        "ename",
+        "dob",
+        "salary",
+        "address",
+        "role",
+        "jDate",
+        "yearlyBP",
+        "rManager",
+        "department"
+      ]
+    },
+    {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "integer"
+        },
+        "ename": {
+          "type": "string"
+        },
+        "dob": {
+          "type": "string"
+        },
+        "salary": {
+          "type": "integer"
+        },
+        "address": {
+          "type": "string"
+        },
+        "role": {
+          "type": "string"
+        },
+        "jDate": {
+          "type": "string"
+        },
+        "yearlyBP": {
+          "type": "string"
+        },
+        "rManager": {
+          "type": "string"
+        },
+        "department": {
+          "type": "object",
+          "properties": {
+            "id": {
+              "type": "integer"
+            },
+            "dname": {
+              "type": "string"
+            },
+            "creationDate": {
+              "type": "string"
+            },
+            "departmentHead": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "id",
+            "dname",
+            "creationDate",
+            "departmentHead"
+          ]
+        }
+      },
+      "required": [
+        "id",
+        "ename",
+        "dob",
+        "salary",
+        "address",
+        "role",
+        "jDate",
+        "yearlyBP",
+        "rManager",
+        "department"
+      ]
+    },
+    {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "integer"
+        },
+        "ename": {
+          "type": "string"
+        },
+        "dob": {
+          "type": "string"
+        },
+        "salary": {
+          "type": "integer"
+        },
+        "address": {
+          "type": "string"
+        },
+        "role": {
+          "type": "string"
+        },
+        "jDate": {
+          "type": "string"
+        },
+        "yearlyBP": {
+          "type": "string"
+        },
+        "rManager": {
+          "type": "string"
+        },
+        "department": {
+          "type": "object",
+          "properties": {
+            "id": {
+              "type": "integer"
+            },
+            "dname": {
+              "type": "string"
+            },
+            "creationDate": {
+              "type": "string"
+            },
+            "departmentHead": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "id",
+            "dname",
+            "creationDate",
+            "departmentHead"
+          ]
+        }
+      },
+      "required": [
+        "id",
+        "ename",
+        "dob",
+        "salary",
+        "address",
+        "role",
+        "jDate",
+        "yearlyBP",
+        "rManager",
+        "department"
+      ]
+    },
+    {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "integer"
+        },
+        "ename": {
+          "type": "string"
+        },
+        "dob": {
+          "type": "string"
+        },
+        "salary": {
+          "type": "integer"
+        },
+        "address": {
+          "type": "string"
+        },
+        "role": {
+          "type": "string"
+        },
+        "jDate": {
+          "type": "string"
+        },
+        "yearlyBP": {
+          "type": "string"
+        },
+        "rManager": {
+          "type": "string"
+        },
+        "department": {
+          "type": "object",
+          "properties": {
+            "id": {
+              "type": "integer"
+            },
+            "dname": {
+              "type": "string"
+            },
+            "creationDate": {
+              "type": "string"
+            },
+            "departmentHead": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "id",
+            "dname",
+            "creationDate",
+            "departmentHead"
+          ]
+        }
+      },
+      "required": [
+        "id",
+        "ename",
+        "dob",
+        "salary",
+        "address",
+        "role",
+        "jDate",
+        "yearlyBP",
+        "rManager",
+        "department"
+      ]
+    },
+    {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "integer"
+        },
+        "ename": {
+          "type": "string"
+        },
+        "dob": {
+          "type": "string"
+        },
+        "salary": {
+          "type": "integer"
+        },
+        "address": {
+          "type": "string"
+        },
+        "role": {
+          "type": "string"
+        },
+        "jDate": {
+          "type": "string"
+        },
+        "yearlyBP": {
+          "type": "string"
+        },
+        "rManager": {
+          "type": "string"
+        },
+        "department": {
+          "type": "object",
+          "properties": {
+            "id": {
+              "type": "integer"
+            },
+            "dname": {
+              "type": "string"
+            },
+            "creationDate": {
+              "type": "string"
+            },
+            "departmentHead": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "id",
+            "dname",
+            "creationDate",
+            "departmentHead"
+          ]
+        }
+      },
+      "required": [
+        "id",
+        "ename",
+        "dob",
+        "salary",
+        "address",
+        "role",
+        "jDate",
+        "yearlyBP",
+        "rManager",
+        "department"
+      ]
+    },
+    {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "integer"
+        },
+        "ename": {
+          "type": "string"
+        },
+        "dob": {
+          "type": "string"
+        },
+        "salary": {
+          "type": "integer"
+        },
+        "address": {
+          "type": "string"
+        },
+        "role": {
+          "type": "string"
+        },
+        "jDate": {
+          "type": "string"
+        },
+        "yearlyBP": {
+          "type": "string"
+        },
+        "rManager": {
+          "type": "string"
+        },
+        "department": {
+          "type": "object",
+          "properties": {
+            "id": {
+              "type": "integer"
+            },
+            "dname": {
+              "type": "string"
+            },
+            "creationDate": {
+              "type": "string"
+            },
+            "departmentHead": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "id",
+            "dname",
+            "creationDate",
+            "departmentHead"
+          ]
+        }
+      },
+      "required": [
+        "id",
+        "ename",
+        "dob",
+        "salary",
+        "address",
+        "role",
+        "jDate",
+        "yearlyBP",
+        "rManager",
+        "department"
+      ]
+    },
+    {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "integer"
+        },
+        "ename": {
+          "type": "string"
+        },
+        "dob": {
+          "type": "string"
+        },
+        "salary": {
+          "type": "integer"
+        },
+        "address": {
+          "type": "string"
+        },
+        "role": {
+          "type": "string"
+        },
+        "jDate": {
+          "type": "string"
+        },
+        "yearlyBP": {
+          "type": "string"
+        },
+        "rManager": {
+          "type": "string"
+        },
+        "department": {
+          "type": "object",
+          "properties": {
+            "id": {
+              "type": "integer"
+            },
+            "dname": {
+              "type": "string"
+            },
+            "creationDate": {
+              "type": "string"
+            },
+            "departmentHead": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "id",
+            "dname",
+            "creationDate",
+            "departmentHead"
+          ]
+        }
+      },
+      "required": [
+        "id",
+        "ename",
+        "dob",
+        "salary",
+        "address",
+        "role",
+        "jDate",
+        "yearlyBP",
+        "rManager",
+        "department"
+      ]
+    },
+    {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "integer"
+        },
+        "ename": {
+          "type": "string"
+        },
+        "dob": {
+          "type": "string"
+        },
+        "salary": {
+          "type": "integer"
+        },
+        "address": {
+          "type": "string"
+        },
+        "role": {
+          "type": "string"
+        },
+        "jDate": {
+          "type": "string"
+        },
+        "yearlyBP": {
+          "type": "string"
+        },
+        "rManager": {
+          "type": "string"
+        },
+        "department": {
+          "type": "object",
+          "properties": {
+            "id": {
+              "type": "integer"
+            },
+            "dname": {
+              "type": "string"
+            },
+            "creationDate": {
+              "type": "string"
+            },
+            "departmentHead": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "id",
+            "dname",
+            "creationDate",
+            "departmentHead"
+          ]
+        }
+      },
+      "required": [
+        "id",
+        "ename",
+        "dob",
+        "salary",
+        "address",
+        "role",
+        "jDate",
+        "yearlyBP",
+        "rManager",
+        "department"
+      ]
+    }
+  ]
+}
